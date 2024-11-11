@@ -110,25 +110,25 @@ const buildConfig = baseConfig.clone()
     .addPlugin(new HtmlWebpackPlugin({
         chunks: ['gui'],
         template: 'src/playground/index.ejs',
-        title: 'Scratch 3.0 GUI'
+        title: 'play-scratch c++ yang'
     }))
     .addPlugin(new HtmlWebpackPlugin({
         chunks: ['blocksonly'],
         filename: 'blocks-only.html',
         template: 'src/playground/index.ejs',
-        title: 'Scratch 3.0 GUI: Blocks Only Example'
+        title: 'play-scratch c++ yang'
     }))
     .addPlugin(new HtmlWebpackPlugin({
         chunks: ['compatibilitytesting'],
         filename: 'compatibility-testing.html',
         template: 'src/playground/index.ejs',
-        title: 'Scratch 3.0 GUI: Compatibility Testing'
+        title: 'play-scratch c++ yang'
     }))
     .addPlugin(new HtmlWebpackPlugin({
         chunks: ['player'],
         filename: 'player.html',
         template: 'src/playground/index.ejs',
-        title: 'Scratch 3.0 GUI: Player Example'
+        title: 'play-scratch c++ yang'
     }))
     .addPlugin(new CopyWebpackPlugin({
         patterns: [
